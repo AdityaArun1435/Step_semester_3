@@ -1,5 +1,16 @@
 ## Date: 28-08-2026
 **Today's Work:**
+- Solved Week 3 OOP practice and assignment problems (Attendance System, FeeAccount inheritance, Hostel/Parking null-safe allocation, static vs instance fields demo, Fee+Hostel and HR+Parking capstone mini-systems)
+
+**Next Session Plan:**
+- Await Week 4 problems
+
+**Issues Faced:**
+- None
+
+---
+## Date: 28-08-2026
+**Today's Work:**
 - Solved Week 2 String practice and assignment problems (Vowel/Consonant Counter, CSV Student Record Parser, File Extension Validator, Masked Phone Number Formatter, Bank Reference Validator, ATM PIN Validator, Word Reversal Encoder, Product Inventory Parser, Library ISBN Validator, Stop-Word Frequency Report)
 
 **Next Session Plan:**
@@ -21,4 +32,5 @@
 
 ---
 # Step_semester_3
+
 
