@@ -1,3 +1,14 @@
+## Date: 29-08-2026
+**Today's Work:**
+- Solved Week 4 OOP Constructors/Java Keywords practice and assignment problems (Bus Ticket Validator, FareSplitter, Bus Route Ranking, Boarding Penalty Calculator, Nightly Reconciliation Engine, Ghost Order Validator, Delivery Slot Booking, Canteen Ranking, Surge Fee Calculator, Multi-Kitchen Reconciliation)
+
+**Next Session Plan:**
+- Await Week 5 problems
+
+**Issues Faced:**
+- None
+
+---
 ## Date: 28-08-2026
 **Today's Work:**
 - Solved Week 3 OOP practice and assignment problems (Attendance System, FeeAccount inheritance, Hostel/Parking null-safe allocation, static vs instance fields demo, Fee+Hostel and HR+Parking capstone mini-systems)
@@ -32,5 +43,6 @@
 
 ---
 # Step_semester_3
+
 
 
