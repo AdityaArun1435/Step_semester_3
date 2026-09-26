@@ -1,3 +1,15 @@
+## Date: 26-09-2026
+**Today's Work:**
+- Solved Week 8 OOP design/UML practice problems: Online Examination System, Vehicle Rental System, Hotel Booking System, Employee Leave Management, Food Order System
+- Covered Week 9 concept session: Data Structures intro, arrays, ADTs, Big-O (no coding problems assigned)
+
+**Next Session Plan:**
+- Move to next topic
+
+**Issues Faced:**
+- None
+
+---
 ## Date: 13-09-2026
 **Today's Work:**
 - Solved Week 6 Inheritance and Polymorphism practice and assignment problems (Ticket Hierarchy Foundation & Batch Registration Validator, Three Shapes of One Family Tree, Late-Registration Penalty Override & Audit Trail, Nightly Ticket Announcer, Fest-Wide Ticket Issuance/Promo Codes/Settlement Engine, and the marathon-themed homework counterparts: Race Entry Foundation & Batch Bib Validator, Three Shapes of One Race Family, Late-Withdrawal Penalty Override & Audit Trail, Race-Day Announcer Board, Race-Wide Bib Issuance/Discount Codes/Settlement Engine)
@@ -66,6 +78,7 @@
 
 ---
 # Step_semester_3
+
 
 
 
