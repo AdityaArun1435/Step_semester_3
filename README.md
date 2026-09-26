@@ -1,5 +1,16 @@
 ## Date: 26-09-2026
 **Today's Work:**
+- Added Week 8 assignment problems: Code Sprint Judging Desk, SwiftShip Parcel Tracker, Smart Lab Control Panel, Elective Seat Rush, Campus Canteen Smart Card
+
+**Next Session Plan:**
+- Move to next topic
+
+**Issues Faced:**
+- None
+
+---
+## Date: 26-09-2026
+**Today's Work:**
 - Solved Week 8 OOP design/UML practice problems: Online Examination System, Vehicle Rental System, Hotel Booking System, Employee Leave Management, Food Order System
 - Covered Week 9 concept session: Data Structures intro, arrays, ADTs, Big-O (no coding problems assigned)
 
@@ -78,6 +89,7 @@
 
 ---
 # Step_semester_3
+
 
 
 
