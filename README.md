@@ -1,3 +1,15 @@
+## Date: 03-10-2026
+**Today's Work:**
+- Solved Category A Data Structures coding assignment: Mall Footfall Range Report (prefix sums), Longest Budget-Friendly Streak (variable sliding window), Net-Balance Period Counter (prefix sum + hashmap), Exam Score Band Counter (binary search), Spiral Stock Audit Route (matrix traversal)
+
+**Next Session Plan:**
+- Move to next topic
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 26-09-2026
 **Today's Work:**
 - Added Week 8 assignment problems: Code Sprint Judging Desk, SwiftShip Parcel Tracker, Smart Lab Control Panel, Elective Seat Rush, Campus Canteen Smart Card
@@ -89,7 +101,6 @@
 
 ---
 # Step_semester_3
-
 
 
 
