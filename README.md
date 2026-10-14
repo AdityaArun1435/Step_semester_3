@@ -1,3 +1,15 @@
+## Date: 14-10-2026
+**Today's Work:**
+- Solved Category A linked list assignment (package datastructures.assigment_problems, branch feature/session_10): Cancelling the k-th Last Order, Campus Portal Browser History, Merging Two Ticket Counters, The Palindrome Train Code, Polynomial Calculator
+
+**Next Session Plan:**
+- Move to next topic
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 03-10-2026
 **Today's Work:**
 - Solved Category A Data Structures coding assignment: Mall Footfall Range Report (prefix sums), Longest Budget-Friendly Streak (variable sliding window), Net-Balance Period Counter (prefix sum + hashmap), Exam Score Band Counter (binary search), Spiral Stock Audit Route (matrix traversal)
