@@ -2,10 +2,10 @@ package datastructures.assigment_problems;
 
 public class BusBayRing {
     static class BusBay {
-        int[] data;      // fixed-size array used as a ring buffer
+        int[] data;
         int capacity;
-        int front;       // index of the front bus
-        int size;        // number of buses in the bay
+        int front;
+        int size;
 
         BusBay(int capacity) {
             this.capacity = capacity;
@@ -16,7 +16,7 @@ public class BusBayRing {
 
         boolean insertFront(int bus) {
             if (isFull()) return false;
-            front = (front - 1 + capacity) % capacity;   // move front backwards
+            front = (front - 1 + capacity) % capacity;
             data[front] = bus;
             size++;
             return true;
@@ -24,7 +24,7 @@ public class BusBayRing {
 
         boolean insertLast(int bus) {
             if (isFull()) return false;
-            data[(front + size) % capacity] = bus;       // first free slot after the rear
+            data[(front + size) % capacity] = bus;
             size++;
             return true;
         }
@@ -49,7 +49,7 @@ public class BusBayRing {
 
         int getRear() {
             if (isEmpty()) return -1;
-            return data[(front + size - 1) % capacity];  // rear slot
+            return data[(front + size - 1) % capacity];
         }
 
         boolean isEmpty() {
@@ -63,14 +63,14 @@ public class BusBayRing {
 
     public static void main(String[] args) {
         BusBay b = new BusBay(3);
-        System.out.println(b.insertLast(101));   // true
-        System.out.println(b.insertLast(102));   // true
-        System.out.println(b.insertFront(100));  // true
-        System.out.println(b.insertFront(99));   // false
-        System.out.println(b.getRear());         // 102
-        System.out.println(b.isFull());          // true
-        System.out.println(b.deleteLast());      // true
-        System.out.println(b.insertFront(98));   // true
-        System.out.println(b.getFront());        // 98
+        System.out.println(b.insertLast(101));
+        System.out.println(b.insertLast(102));
+        System.out.println(b.insertFront(100));
+        System.out.println(b.insertFront(99));
+        System.out.println(b.getRear());
+        System.out.println(b.isFull());
+        System.out.println(b.deleteLast());
+        System.out.println(b.insertFront(98));
+        System.out.println(b.getFront());
     }
 }

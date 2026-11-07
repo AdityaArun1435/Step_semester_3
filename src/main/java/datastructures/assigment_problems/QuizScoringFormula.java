@@ -1,7 +1,6 @@
 package datastructures.assigment_problems;
 
 public class QuizScoringFormula {
-    // * and / bind tighter than + and -
     static int precedence(char op) {
         if (op == '+' || op == '-') return 1;
         return 2;
@@ -11,13 +10,13 @@ public class QuizScoringFormula {
         if (op == '+') return a + b;
         if (op == '-') return a - b;
         if (op == '*') return a * b;
-        return a / b;   // integer division
+        return a / b;
     }
 
     static int evaluate(String expr) {
         int n = expr.length();
-        int[] nums = new int[n];     // operand stack
-        char[] ops = new char[n];    // operator stack
+        int[] nums = new int[n];
+        char[] ops = new char[n];
         int numTop = -1;
         int opTop = -1;
 
@@ -31,7 +30,6 @@ public class QuizScoringFormula {
             }
 
             if (ch >= '0' && ch <= '9') {
-                // read the whole multi-digit number
                 int value = 0;
                 while (i < n && expr.charAt(i) >= '0' && expr.charAt(i) <= '9') {
                     value = value * 10 + (expr.charAt(i) - '0');
@@ -44,7 +42,6 @@ public class QuizScoringFormula {
             if (ch == '(') {
                 ops[++opTop] = ch;
             } else if (ch == ')') {
-                // apply operators until the matching '(' and discard it
                 while (ops[opTop] != '(') {
                     int b = nums[numTop--];
                     int a = nums[numTop--];
@@ -52,7 +49,6 @@ public class QuizScoringFormula {
                 }
                 opTop--;
             } else {
-                // apply every operator on the stack with greater or equal precedence
                 while (opTop >= 0 && ops[opTop] != '(' && precedence(ops[opTop]) >= precedence(ch)) {
                     int b = nums[numTop--];
                     int a = nums[numTop--];
@@ -63,7 +59,6 @@ public class QuizScoringFormula {
             i++;
         }
 
-        // apply what is left on the operator stack
         while (opTop >= 0) {
             int b = nums[numTop--];
             int a = nums[numTop--];
@@ -73,7 +68,7 @@ public class QuizScoringFormula {
     }
 
     public static void main(String[] args) {
-        System.out.println(evaluate("2 * (3 + 4) - 10 / 5"));   // 12
-        System.out.println(evaluate("(8 - 2) * (1 + 2) / 4"));  // 4
+        System.out.println(evaluate("2 * (3 + 4) - 10 / 5"));
+        System.out.println(evaluate("(8 - 2) * (1 + 2) / 4"));
     }
 }
