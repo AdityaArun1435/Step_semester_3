@@ -1,3 +1,15 @@
+## Date: 08-11-2026
+**Today's Work:**
+- Solved Category A stacks, queues and BFS assignment (package datastructures.assigment_problems, branch feature/session_11): The Canteen Price Streak, The Hackathon Banner Printer, The Quiz Scoring Formula, The Bus Bay Ring, The Fire Drill Exits
+
+**Next Session Plan:**
+- Move to next topic
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 14-10-2026
 **Today's Work:**
 - Solved Category A linked list assignment (package datastructures.assigment_problems, branch feature/session_10): Cancelling the k-th Last Order, Campus Portal Browser History, Merging Two Ticket Counters, The Palindrome Train Code, Polynomial Calculator
